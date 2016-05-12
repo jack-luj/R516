@@ -42,8 +42,10 @@ Solr [https://lucene.apache.org/solr/](https://lucene.apache.org/solr/)<br>
 ## Remote Service
 WebService<br>
 Restful  <br>
-Thrift [https://thrift.apache.org/](https://thrift.apache.org/)<br>
+【】Thrift [https://thrift.apache.org/](https://thrift.apache.org/)<br>
+###
+*[ThriftStudy](https://github.com/jack-luj/ThriftStudy)* <br>
 ## Others
-- [ ] Jfinal [https://github.com/jfinal/jfinal](https://github.com/jfinal/jfinal)<br>
-### 
+【】Jfinal [https://github.com/jfinal/jfinal](https://github.com/jfinal/jfinal)<br>
+###
 *[JfinalStudy](https://github.com/jack-luj/JfinalStudy)* <br>
