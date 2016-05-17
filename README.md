@@ -37,10 +37,10 @@ zookeeper [https://zookeeper.apache.org/](https://zookeeper.apache.org/)<br>
 kafka [http://kafka.apache.org/](http://kafka.apache.org/)<br>
 Dubbo [http://dubbo.io/](http://dubbo.io/)<br>
 ## Search
-【v】lucene [https://lucene.apache.org/](https://lucene.apache.org/)<br>
+【√】lucene [https://lucene.apache.org/](https://lucene.apache.org/)<br>
 ###
 *[LuceneStudy](https://github.com/jack-luj/LuceneStudy)* <br>
-【】Solr [https://lucene.apache.org/solr/](https://lucene.apache.org/solr/)<br>
+【√】Solr [https://lucene.apache.org/solr/](https://lucene.apache.org/solr/)<br>
 ###
 *[SolrStudy](https://github.com/jack-luj/SolrStudy)* <br>
 ## Remote Service
