@@ -33,21 +33,23 @@ Netty [http://netty.io/](http://netty.io/)<br>
 ## BigData
 Hadoop [http://hadoop.apache.org/](http://hadoop.apache.org/)<br>
 zookeeper [https://zookeeper.apache.org/](https://zookeeper.apache.org/)<br>
-## distributed framework
+## Distributed framework
 kafka [http://kafka.apache.org/](http://kafka.apache.org/)<br>
 Dubbo [http://dubbo.io/](http://dubbo.io/)<br>
 ## Search
-lucene [https://lucene.apache.org/](https://lucene.apache.org/)<br>
+【v】lucene [https://lucene.apache.org/](https://lucene.apache.org/)<br>
 ###
 *[LuceneStudy](https://github.com/jack-luj/LuceneStudy)* <br>
-Solr [https://lucene.apache.org/solr/](https://lucene.apache.org/solr/)<br>
+【】Solr [https://lucene.apache.org/solr/](https://lucene.apache.org/solr/)<br>
+###
+*[SolrStudy](https://github.com/jack-luj/SolrStudy)* <br>
 ## Remote Service
 WebService<br>
 Restful  <br>
-【】Thrift [https://thrift.apache.org/](https://thrift.apache.org/)<br>
+【√】Thrift [https://thrift.apache.org/](https://thrift.apache.org/)<br>
 ###
 *[ThriftStudy](https://github.com/jack-luj/ThriftStudy)* <br>
 ## Others
-【】Jfinal [https://github.com/jfinal/jfinal](https://github.com/jfinal/jfinal)<br>
+【√】Jfinal [https://github.com/jfinal/jfinal](https://github.com/jfinal/jfinal)<br>
 ###
 *[JfinalStudy](https://github.com/jack-luj/JfinalStudy)* <br>
