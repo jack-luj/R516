@@ -1,0 +1,22 @@
+﻿ActiveMQ[https://activemq.apache.org/]:
+Apache子项目，TPS弱于其它
+
+
+RabbitMQ[http://www.rabbitmq.com/]:
+erlang语言开发 高并发性能好，成熟，可靠性好
+
+
+RocketMQ[https://github.com/alibaba/RocketMQ/]:
+alibaba开发,做了很多针对实际业务场景的优化，放弃了一些实际应用很难达到的性能指标
+
+
+Kafka[http://kafka.apache.org/]:
+为日志消息设计，吞吐TPS性能优于其它，原因在于消息发送机制（批量）
+
+
+ZeroMQ[http://zeromq.org/]:
+轻量级 极速 不支持持久化 宕机可能会丢消息
+
+
+参考资料：
+http://blog.csdn.net/linsongbin1/article/details/47781187
