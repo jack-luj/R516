@@ -35,7 +35,7 @@ Hadoop [http://hadoop.apache.org/](http://hadoop.apache.org/)<br>
 zookeeper [https://zookeeper.apache.org/](https://zookeeper.apache.org/)<br>
 ## Distributed framework
 kafka [http://kafka.apache.org/](http://kafka.apache.org/)<br>
-Dubbo [http://dubbo.io/](http://dubbo.io/)<br>
+Zookeeper [https://zookeeper.apache.org/](https://zookeeper.apache.org/)<br>
 ## Search
 【√】lucene [https://lucene.apache.org/](https://lucene.apache.org/)<br>
 ###
@@ -45,6 +45,7 @@ Dubbo [http://dubbo.io/](http://dubbo.io/)<br>
 *[SolrStudy](https://github.com/jack-luj/SolrStudy)* <br>
 ## Remote Service
 WebService<br>
+Dubbo [http://dubbo.io/](http://dubbo.io/)<br>
 Restful  <br>
 【√】Thrift [https://thrift.apache.org/](https://thrift.apache.org/)<br>
 ###
