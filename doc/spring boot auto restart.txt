@@ -1,0 +1,34 @@
+﻿20. Developer tools
+Spring Boot includes an additional set of tools that can make the application development experience a little more pleasant. The spring-boot-devtools module can be included in any project to provide additional development-time features. To include devtools support, simply add the module dependency to your build:
+
+Gradle. 
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-devtools")
+}
+[Note]
+Developer tools are automatically disabled when running a fully packaged application. If your application is launched using java -jar or if it’s started using a special classloader, then it is considered a “production application”. Flagging the dependency as optional is a best practice that prevents devtools from being transitively applied to other modules using your project. Gradle does not support optional dependencies out-of-the-box so you may want to have a look to the propdeps-plugin in the meantime.
+[Tip]
+If you want to ensure that devtools is never included in a production build, you can use the excludeDevtools build property to completely remove the JAR. The property is supported with both the Maven and Gradle plugins.
+20.1 Property defaults
+Several of the libraries supported by Spring Boot use caches to improve performance. For example, Thymeleaf will cache templates to save repeatedly parsing XML source files. Whilst caching is very beneficial in production, it can be counter productive during development. If you make a change to a template file in your IDE, you’ll likely want to immediately see the result.
+
+Cache options are usually configured by settings in your application.properties file. For example, Thymeleaf offers the spring.thymeleaf.cache property. Rather than needing to set these properties manually, the spring-boot-devtools module will automatically apply sensible development-time configuration.
+
+[Tip]
+For a complete list of the properties that are applied see DevToolsPropertyDefaultsPostProcessor.
+20.2 Automatic restart
+Applications that use spring-boot-devtools will automatically restart whenever files on the classpath change. This can be a useful feature when working in an IDE as it gives a very fast feedback loop for code changes. By default, any entry on the classpath that points to a folder will be monitored for changes. Note that certain resources such as static assets and view templates do not need to restart the application.
+
+【Triggering a restart】
+
+As DevTools monitors classpath resources, the only way to trigger a restart is to update the classpath. The way in which you cause the classpath to be updated depends on the IDE that you are using. In Eclipse, saving a modified file will cause the classpath to be updated and trigger a restart. In IntelliJ IDEA, building the project (Build → Make Project) will have the same effect.
+
+[Note]
+You can also start your application via the supported build plugins (i.e. Maven and Gradle) as long as forking is enabled since DevTools need an isolated application classloader to operate properly. You can force the plugin to fork the process as follows:
+
+
+Gradle. 
+bootRun {
+    addResources = true
+}
